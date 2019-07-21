@@ -12,7 +12,8 @@ var http = require('http');
  * Get port from environment and store in Express.
  */
 
-var port = normalizePort(process.env.PORT || '3000');
+ // changed this from 3000 in order to run both apps at the same time without issue
+var port = normalizePort(process.env.PORT || '9000');
 app.set('port', port);
 
 /**
