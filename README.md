@@ -41,4 +41,5 @@ Started by creating a folder, cd into that folder.
 
 ### Next
 
+Make another route without using the tutorial
 Try and find out how to add a PostgreSQL db to this project
